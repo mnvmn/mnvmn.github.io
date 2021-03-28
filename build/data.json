@@ -1,0 +1,202 @@
+{
+  "info": [
+    {
+      "label": {
+        "en": "Name",
+        "sk": "Meno"
+      },
+      "value": "Ing. arch. Matúš Nevedel"
+    },
+    {
+      "label": {
+        "en": "Date of birth",
+        "sk": "Dátum narodenia"
+      },
+      "value": "2.12.1984"
+    },
+    {
+      "label": {
+        "en": "Nationality",
+        "sk": "Narodnosť"
+      },
+      "value": {
+        "en": "slovak",
+        "sk": "slovenská"
+      }
+    },
+    {
+      "label": {
+        "en": "Permanent address",
+        "sk": "Trvalé bydlisko"
+      },
+      "value": "Bratislava"
+    }
+  ],
+  "contact": {
+    "email": {
+      "label": "Email",
+      "value": "matus.nevedel@gmail.com"
+    },
+    "phone": {
+      "label": {
+        "en": "Phone",
+        "sk": "Telefónne číslo"
+      },
+      "value": "+421 948 194 195"
+    }
+  },
+  "education": [
+    {
+      "label": "1999 – 2004",
+      "value": {
+        "en": "Evanjelical lyceum, Bratislava",
+        "sk": "Evanjelické lýceum, Bratislava"
+      }
+    },
+    {
+      "label": "2002",
+      "value": "Papakura High School, Auckland, New Zealand"
+    },
+    {
+      "label": "2004 – 2011",
+      "value": {
+        "en": "STU Bratislava, Faculty of architecture",
+        "sk": "STU Bratislava, Fakulta architektúry"
+      }
+    }
+  ],
+  "work": [
+    {
+      "label": "2005 – 2007",
+      "value": "PRO SCK s.r.o.",
+      "projects": [
+        {
+          "project": {
+            "en": "Project documentation drafting - Eurovea, Motešických palace",
+            "sk": "Rysovanie stavebných výkresov - Eurovea, Palác Motešických"
+          },
+          "skill": "AutoCAD"
+        }
+      ]
+    },
+    {
+      "label": "2008 – 2010",
+      "value": "AUDIRO s.r.o.",
+      "projects": [
+        {
+          "project": {
+            "en": "Project documentation and visualisations for houses and interiors",
+            "sk": "Tvorba projektovej dokumentácie and vizualizácií"
+          },
+          "skill": "Autodesk and  Adobe software"
+        }
+      ]
+    },
+    {
+      "label": "2011 Sep",
+      "value": {
+        "en": "internship",
+        "sk": "letná stáž"
+      },
+      "projects": [
+        {
+          "project": {
+            "en": "development of theme for portal www.ghmp.cz",
+            "sk": "development témy portálu www.ghmp.cz"
+          },
+          "skill": "Liferay, java, css"
+        }
+      ]
+    },
+    {
+      "label": "2011 – 2012",
+      "value": "freelance",
+      "projects": [
+        {
+          "project": {
+            "en": "CMS customization, development and deployment www.volis.sk and others",
+            "sk": "Konfigurácia, vývoj a nasadenie CMS www.volis.sk a ďalšie"
+          },
+          "skill": "Drupal, php, js, css"
+        }
+      ]
+    },
+    {
+      "label": "2012 Sep – 2015 Feb",
+      "value": "Accenture s.r.o.",
+      "projects": [
+        {
+          "project": {
+            "en": "Full stack development on Microsoft platform. Member of agile scrum teams on projects for international clients.",
+            "sk": "Full stack development na platforme Microsoft. Práca v agilných tímoch na projektoch pre medzinárodných klientov."
+          }
+        },
+        {
+          "project": {
+            "en": "Project Achmea - continuous delivery of SharePoint components",
+            "sk": "Projekt Achmea - agilný vývoj SharePoint komponentov"
+          }
+        },
+        {
+          "project": {
+            "en": "Internal assignment - design, development and deployment of portal dedicated to Bratislava Delivery Center on Avanade domain",
+            "sk": "Interná úloha - dizajn, vývoj a nasadenie portálu pre Bratislava Delivery Center v doméne Avanade"
+          }
+        },
+        {
+          "project": {
+            "en": "Project TDC - implementation of call center dashbord as SPA and backend services aggregating data from legacy systems",
+            "sk": "Projekt TDC - implementácia single page aplikácia slúžiacej ako dashbord pre call centrum"
+          },
+          "skill": "SharePoint 2010, ASP.Net, js, css"
+        },
+        {
+          "project": {
+            "en": "Project Husqvarna - implementation of content management system www.husqvarna.com",
+            "sk": "Projekt Husqvarna - implementácia CMS www.husqvarna.com"
+          },
+          "skill": "Sitecore 7, ASP.Net, Bootstrap 3, js, css"
+        }
+      ]
+    },
+    {
+      "label": "2015 Mar – 2018 Apr",
+      "value": "Lomnido GmbH",
+      "projects": [
+        {
+          "project": {
+            "en":
+              "Front end layer implementation for data transformation application. Development of interactive components for connectivity configuration, setup of customisable workflows, message routing, mapping between dataformats, environment staging, administration, system monitoring and others. Rewrite of grails MVC project into REST services and SPA web client.",
+            "sk":
+              "Implementácia prezentačnej vrstvy pre data integračnú applikáciu. Rewrite z MVC do SPA a RESTových servisov. Development interaktívnych komponentov pre vytváranie nastavení a monitoring"
+          },
+          "skill":
+            "Groovy, Grails, Backbone, Marionette, jQuery, Underscore, Datatables, JsPlumb, Flot, Bootstrap 4"
+        },
+        {
+          "project": {
+            "en": "Implementation of two applications for server configuration and remote monitoring of deployed projects",
+            "sk": "Implementácia full stack aplikácie pre monitorovanie projektov a browserovej aplikácia pre konfiguráciu serveru a siete"
+          },
+          "skill": "Groovy, Grails, AngularJs, Bootstrap 3"
+        }
+      ]
+    },
+    {
+      "label": "2018 Jun – ",
+      "value": "Foundation s.r.o.",
+      "projects": [
+        {
+          "project": {
+            "en":
+              "Bug fixes and performance enhancements for the front end layer of a clinical trials document management application. Integration with corporate platform. Implementation of new components. Implementation of UI tracing instrumentation. Proof of concept for migration of the app to reactjs framework. Various utility scripts. Consulting for automatic UI and performance tests.",
+            "sk":
+              "Opravy defektov a zefektívnenie FE vrstvy aplikácie na vedenie dokumentov pre klinické testy. Integrácia s korporátnou platformou. Implementácia nových komponentov. Implementácia UI tracingu. Proof of concept pre migráciu na reactjs framework. Tvorba pomocných skriptov. Konzultácie pre vývoj automatizovaných UI a performance testov."
+          },
+          "skill":
+            "AngularJs, Grunt, PdfJs, ZipkinJs, Underscore, ReactJs, Webpack, Bootstrap 3"
+        }
+      ]
+    }
+  ]
+}

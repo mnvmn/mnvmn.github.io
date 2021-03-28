@@ -1,0 +1,46 @@
+{
+  "title": {
+    "education": {
+      "en": "education",
+      "sk": "vzdelanie"
+    },
+    "work": {
+      "en": "experience",
+      "sk": "zamestnanie"
+    },
+    "contact": {
+      "en": "contact",
+      "sk": "kontakt"
+    }
+  },
+  "btns": {
+    "viewSource": {
+      "en": "Github",
+      "sk": "Github"
+    },
+    "viewContact": {
+      "en": "Contact",
+      "sk": "Kontakt"
+    },
+    "viewCv": {
+      "en": "Back to CV",
+      "sk": "Späť na CV"
+    },
+    "downloadPdf": {
+      "en": "Download PDF",
+      "sk": "Stiahni PDF"
+    },
+    "orderByDateAsc": {
+      "en": "Show Oldest First",
+      "sk": "Zobraz Najstaršie Hore"
+    },
+    "orderByDateDesc": {
+      "en": "Show Latest First",
+      "sk": "Zobraz Najnovšie Hore"
+    },
+    "changeLanguage": {
+      "en": "Sk",
+      "sk": "En"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'variables';
+
+.btn-group-xs > .btn,
+.btn.btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+a.btn {
+  text-decoration: none !important;
+}
+
+a.btn-link:active,
+a.btn-link:focus,
+a.btn-link:focus,
+a.btn-link:visited {
+  text-decoration: none;
+}
+.btn-link {
+  font-size: 0.9em;
+}
+.btn-link:hover {
+  text-decoration: underline !important;
+  color: lighten($secondary, 7%) !important;
+}
+
+.btn,
+button {
+  box-shadow: none !important;
+  background-color: white !important;
+  // transition: none;
+  &.disabled {
+    &:active,
+    &:focus,
+    &:hover {
+      color: $gray-800;
+      box-shadow: none !important;
+      background-color: white;
+    }
+  }
+
+  &.btn-outline-primary {
+    transition: none;
+    border-color: #378fe7 !important;
+    color: #1976d2;
+    &:hover {
+      border-color: darken($primary, 5%) !important;
+      color: darken($primary, 4%) !important;
+    }
+
+    @include media-breakpoint-down(xs) {
+      border-left-width: 0;
+      border-right-width: 0;
+      background-color: $footer-color !important;
+      &:first-child {
+        border-top-width: 0;
+      }
+      &,
+      &:hover {
+        border-color: $gray-300 !important;
+      }
+    }
+  }
+
+  &.btn-outline-secondary {
+    border-color: $secondary !important;
+    color: darken($secondary, 5%) !important;
+
+    &.active,
+    &.hover,
+    &:active,
+    &:hover {
+      border-color: darken($secondary, 12%) !important;
+      color: darken($secondary, 15%) !important;
+    }
+  }
+}
+
+.btn.btn-context {
+  // background-color: darken($gray-100, 5%) !important;
+  color: $gray-700 !important;
+  &:hover {
+    transition: background-color 200ms ease, border-color 200ms ease;
+    background-color: lighten($footer-color, 2%) !important;
+    color: darken($gray-700, 4%) !important;
+  }
+}
+
+.btn,
+button,
+input[type='submit'] {
+  cursor: pointer !important;
+
+  &.disabled,
+  &:disabled {
+    cursor: default !important;
+  }
+}
+@include media-breakpoint-down(xs) {
+  .btn-xs-block {
+    display: block;
+    width: 100%;
+  }
+}
+
+.navbar-toggler {
+  background-color: $footer-color !important;
+
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    outline: none !important;
+  }
+}
+
+.btn-vertical {
+  height: 100px;
+}

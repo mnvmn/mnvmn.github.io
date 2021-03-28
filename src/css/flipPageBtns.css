@@ -1,0 +1,52 @@
+.btn-vertical {
+  height: 100px; }
+
+.control-flipPage-left,
+.control-flipPage-right {
+  top: 200px;
+  top: 40vh;
+  position: absolute;
+  z-index: 100; }
+
+.control-flipPage-right {
+  right: 0; }
+
+.control-flipPage-left {
+  left: 0; }
+
+@media (max-width: 575.98px) {
+  .control-flipPage-left,
+  .control-flipPage-right {
+    top: 0px; }
+    .control-flipPage-left .btn,
+    .control-flipPage-right .btn {
+      background-color: #f5f5f5 !important;
+      border-color: #dee2e6 !important; } }
+
+@media (max-width: 949.98px) {
+  .control-flipPage-right .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-width: 0; }
+  .control-flipPage-left .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-width: 0; } }
+
+@media (min-width: 950px) {
+  .control-flipPage-left {
+    left: 30px; }
+  .control-flipPage-right {
+    right: 30px; } }
+
+@media (min-width: 1050px) {
+  .control-flipPage-left {
+    left: 50px; }
+  .control-flipPage-right {
+    right: 50px; } }
+
+@media (min-width: 1200px) {
+  .control-flipPage-left {
+    left: 120px; }
+  .control-flipPage-right {
+    right: 100px; } }

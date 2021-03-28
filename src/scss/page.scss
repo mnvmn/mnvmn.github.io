@@ -1,0 +1,76 @@
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'variables';
+
+#root,
+#root > div,
+.App,
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+.cv-header {
+  border-bottom: 1px solid darken($footer-color, 3%);
+}
+
+#cv-container {
+  h3 {
+    font-size: 1.6em;
+  }
+  // @include media-breakpoint-down(xs) {
+  //   padding-top: 0px;
+  // }
+}
+
+footer#footer {
+  > div {
+    min-height: $footer-height;
+  }
+  font-size: 0.9em;
+  border-top: 1px solid darken($footer-color, 3%);
+  background-color: $footer-color;
+  z-index: 10;
+}
+
+.row {
+  margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+#logo-title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 2em;
+  // -ms-transform: rotate(-2deg);
+  // -webkit-transform: rotate(-2deg);
+  // transform: rotate(-2deg);
+}
+
+#bootstrap-grid-util {
+  left: 20px;
+  color: $gray-400;
+  display: none;
+}
+::selection {
+  background: #ffdc72;
+  color: #654c2b;
+}
+.text-primary, .text-secondary {
+  &::selection,
+  span::selection {
+    color: #8a6b2d;
+  }
+}
